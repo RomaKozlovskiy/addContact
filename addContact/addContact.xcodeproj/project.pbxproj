@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4EB16FC029FC52E0006748CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB16FBF29FC52E0006748CE /* AppDelegate.swift */; };
 		4EB16FC229FC52E0006748CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB16FC129FC52E0006748CE /* SceneDelegate.swift */; };
-		4EB16FC429FC52E0006748CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB16FC329FC52E0006748CE /* ViewController.swift */; };
+		4EB16FC429FC52E0006748CE /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB16FC329FC52E0006748CE /* NewContactViewController.swift */; };
 		4EB16FC729FC52E0006748CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB16FC529FC52E0006748CE /* Main.storyboard */; };
 		4EB16FC929FC52E1006748CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB16FC829FC52E1006748CE /* Assets.xcassets */; };
 		4EB16FCC29FC52E1006748CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB16FCA29FC52E1006748CE /* LaunchScreen.storyboard */; };
+		4EB16FD429FC6012006748CE /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB16FD329FC6012006748CE /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4EB16FBC29FC52E0006748CE /* addContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = addContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB16FBF29FC52E0006748CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB16FC129FC52E0006748CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EB16FC329FC52E0006748CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EB16FC329FC52E0006748CE /* NewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
 		4EB16FC629FC52E0006748CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EB16FC829FC52E1006748CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EB16FCB29FC52E1006748CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EB16FCD29FC52E1006748CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB16FD329FC6012006748CE /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				4EB16FBF29FC52E0006748CE /* AppDelegate.swift */,
 				4EB16FC129FC52E0006748CE /* SceneDelegate.swift */,
-				4EB16FC329FC52E0006748CE /* ViewController.swift */,
+				4EB16FD329FC6012006748CE /* ContactsViewController.swift */,
+				4EB16FC329FC52E0006748CE /* NewContactViewController.swift */,
 				4EB16FC529FC52E0006748CE /* Main.storyboard */,
 				4EB16FC829FC52E1006748CE /* Assets.xcassets */,
 				4EB16FCA29FC52E1006748CE /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EB16FC429FC52E0006748CE /* ViewController.swift in Sources */,
+				4EB16FC429FC52E0006748CE /* NewContactViewController.swift in Sources */,
+				4EB16FD429FC6012006748CE /* ContactsViewController.swift in Sources */,
 				4EB16FC029FC52E0006748CE /* AppDelegate.swift in Sources */,
 				4EB16FC229FC52E0006748CE /* SceneDelegate.swift in Sources */,
 			);
