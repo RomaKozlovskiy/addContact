@@ -14,6 +14,8 @@
 		4EB16FC929FC52E1006748CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB16FC829FC52E1006748CE /* Assets.xcassets */; };
 		4EB16FCC29FC52E1006748CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB16FCA29FC52E1006748CE /* LaunchScreen.storyboard */; };
 		4EB16FD429FC6012006748CE /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB16FD329FC6012006748CE /* ContactsViewController.swift */; };
+		4EB16FDC29FC66D7006748CE /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB16FDB29FC66D7006748CE /* Contact.swift */; };
+		4EB16FDF29FC66F1006748CE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB16FDE29FC66F1006748CE /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4EB16FCB29FC52E1006748CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EB16FCD29FC52E1006748CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EB16FD329FC6012006748CE /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		4EB16FDB29FC66D7006748CE /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		4EB16FDE29FC66F1006748CE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,66 @@
 		4EB16FBE29FC52E0006748CE /* addContact */ = {
 			isa = PBXGroup;
 			children = (
-				4EB16FBF29FC52E0006748CE /* AppDelegate.swift */,
-				4EB16FC129FC52E0006748CE /* SceneDelegate.swift */,
-				4EB16FD329FC6012006748CE /* ContactsViewController.swift */,
-				4EB16FC329FC52E0006748CE /* NewContactViewController.swift */,
-				4EB16FC529FC52E0006748CE /* Main.storyboard */,
-				4EB16FC829FC52E1006748CE /* Assets.xcassets */,
-				4EB16FCA29FC52E1006748CE /* LaunchScreen.storyboard */,
-				4EB16FCD29FC52E1006748CE /* Info.plist */,
+				4EB16FD929FC66A7006748CE /* ViewControllers */,
+				4EB16FDD29FC66DE006748CE /* StorageManager */,
+				4EB16FDA29FC66C1006748CE /* Models */,
+				4EB16FD729FC6688006748CE /* StoryBoards */,
+				4EB16FD829FC669D006748CE /* Resources */,
+				4EB16FD629FC667B006748CE /* App */,
 			);
 			path = addContact;
+			sourceTree = "<group>";
+		};
+		4EB16FD629FC667B006748CE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4EB16FBF29FC52E0006748CE /* AppDelegate.swift */,
+				4EB16FC129FC52E0006748CE /* SceneDelegate.swift */,
+				4EB16FCD29FC52E1006748CE /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4EB16FD729FC6688006748CE /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				4EB16FC529FC52E0006748CE /* Main.storyboard */,
+				4EB16FCA29FC52E1006748CE /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		4EB16FD829FC669D006748CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EB16FC829FC52E1006748CE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4EB16FD929FC66A7006748CE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EB16FD329FC6012006748CE /* ContactsViewController.swift */,
+				4EB16FC329FC52E0006748CE /* NewContactViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4EB16FDA29FC66C1006748CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EB16FDB29FC66D7006748CE /* Contact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4EB16FDD29FC66DE006748CE /* StorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				4EB16FDE29FC66F1006748CE /* StorageManager.swift */,
+			);
+			path = StorageManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +197,8 @@
 			files = (
 				4EB16FC429FC52E0006748CE /* NewContactViewController.swift in Sources */,
 				4EB16FD429FC6012006748CE /* ContactsViewController.swift in Sources */,
+				4EB16FDC29FC66D7006748CE /* Contact.swift in Sources */,
+				4EB16FDF29FC66F1006748CE /* StorageManager.swift in Sources */,
 				4EB16FC029FC52E0006748CE /* AppDelegate.swift in Sources */,
 				4EB16FC229FC52E0006748CE /* SceneDelegate.swift in Sources */,
 			);
